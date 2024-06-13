@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    box-shadow: 0 5px 0px #fff;
+}
+.logo-img {
+    height: 70px;
+    width: 300px;
+}
+header ul li {
+    position: relative;
+    float: left;
+}
+header ul li a {
+    padding: 15px;
+    color: white;
+    font-size: 35px;
+    display: block;
+    font-family: 'Audiowide';
+}
+header ul li a:hover {
+    color:rgb(220, 220, 220);
+}
+body {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+}
+.block {
+    width: 1200px;
+    height: 600px;
+    padding: 20px;
+    background-color: black;
+    border: 4px, solid, #fff;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+}
+.lunarr {
+    width: 400px;
+    float: right;
+    border: 5px, solid, rgb(0, 0, 0);
+    margin-top: -80px;
+}
+.name1 {
+    color: #fff;
+    font-family: 'Audiowide';
+    font-size: 42px;
+    margin-top: 0px;
+}
+.data {
+    font-style: italic;
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Audiowide';
+}
+.description {
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Audiowide';
+    width: 700px;
+}
+.description2 {
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Audiowide';
+    width: 700px;
+}
+.play {
+    color: #dadada;
+    font-size: 27px;
+    font-family: 'Audiowide';
+    margin-top: 20px;
+}
+.play:hover {
+    color:rgb(255, 255, 255);
+}
