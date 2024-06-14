@@ -40,6 +40,9 @@ body {
     margin-top: 100px;
     padding: 10px;
 }
+.bordfan {
+    border: 3px solid #fff;
+}
 .mh-gamestm {
     color: #fff;
     font-size: 27px;
